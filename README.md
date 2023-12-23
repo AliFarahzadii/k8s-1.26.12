@@ -11,7 +11,7 @@ sudo apt-get update
 \# apt-transport-https may be a dummy package; if so, you can skip that package
 
 ```
-sudo apt-get install -y apt-transport-https ca-certificates curl
+sudo apt install --download-only -o=dir::cache=/home/kuber apt-transport-https ca-certificates curl
 ```
 
 Download the public signing key for the Kubernetes package repositories. The same signing key is used for all repositories so you can disregard the version in the URL:
