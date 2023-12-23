@@ -1,4 +1,4 @@
-*Offline installation for Kubernetes 1.26 (Ubuntu server 20.4)*
+# Offline installation for Kubernetes 1.26 (Ubuntu server 20.4)*
 
 **On machine with internet access:**
 
