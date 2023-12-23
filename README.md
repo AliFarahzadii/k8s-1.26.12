@@ -85,15 +85,13 @@ sudo dpkg -i \*.deb
 ```
 
 to import the images that already copied in a directory use below command : 
-
-![](Aspose.Words.5ffa7e6f-6edd-4305-9a46-e168142f5cfb.001.png)```ctr --namespace k8s.io image import  imageName.tar```
+```
+ctr --namespace k8s.io image import  imageName.tar
+```
 
 then initiate the kubernetes cluster
 
+- on worker node just import kube-proxy and pause image.
+- the pause version must be 3.9 check the pause version in this path : /etc/containerd/config.toml.
 
-
-
-- on worker node just import kube-proxy and pause image , it must be 3.9.
-- check the pause version in this path : /etc/containerd/config.toml.
-
-![](Aspose.Words.5ffa7e6f-6edd-4305-9a46-e168142f5cfb.002.png)
+![Aspose Words 5ffa7e6f-6edd-4305-9a46-e168142f5cfb 001](https://github.com/AliFarahzadii/k8s-1.26.12/assets/152854585/1816e003-62c1-4b85-ac83-f4e1c2e985a6)
