@@ -20,9 +20,7 @@ Download the public signing key for the Kubernetes package repositories. The sam
 curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.26/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg
 ```
 
-Add the appropriate Kubernetes ap![Aspose Words 5ffa7e6f-6edd-4305-9a46-e168142f5cfb 001](https://github.com/AliFarahzadii/k8s-1.26.12/assets/152854585/0cb81774-6f7a-44f6-832b-09577290ef31)
-![Aspose Words 5ffa7e6f-6edd-4305-9a46-e168142f5cfb 002](https://github.com/AliFarahzadii/k8s-1.26.12/assets/152854585/cdcdc4ef-9995-4124-8001-94d0ccb135e3)
-t repository. Please note that this repository have packages only for Kubernetes 1.26; for other Kubernetes minor versions, you need to change the Kubernetes minor version in the URL to match your desired minor version (you should also check that you are reading the documentation for the version of Kubernetes that you plan to install).
+Add the appropriate Kubernetes apt repository. Please note that this repository have packages only for Kubernetes 1.26; for other Kubernetes minor versions, you need to change the Kubernetes minor version in the URL to match your desired minor version (you should also check that you are reading the documentation for the version of Kubernetes that you plan to install).
 
 \# This overwrites any existing configuration in /etc/apt/sources.list.d/kubernetes.list
 
