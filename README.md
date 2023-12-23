@@ -1,4 +1,4 @@
-**Offline installation for Kubernetes 1.26 (Ubuntu server 20.4)**
+****Offline installation for Kubernetes 1.26 (Ubuntu server 20.4)****
 
 **On machine with internet access:**
 
@@ -94,4 +94,4 @@ then initiate the kubernetes cluster
 - on worker node just import kube-proxy and pause image.
 - the pause version must be 3.9 check the pause version in this path : /etc/containerd/config.toml.
 
-![Aspose Words 5ffa7e6f-6edd-4305-9a46-e168142f5cfb 001](https://github.com/AliFarahzadii/k8s-1.26.12/assets/152854585/1816e003-62c1-4b85-ac83-f4e1c2e985a6)
+![Aspose Words 5ffa7e6f-6edd-4305-9a46-e168142f5cfb 002](https://github.com/AliFarahzadii/k8s-1.26.12/assets/152854585/c037ca72-012a-4ca5-aa45-d2d81ebffb05)
